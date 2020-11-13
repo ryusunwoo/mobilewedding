@@ -1,0 +1,181 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ul { list-style-type: none;}
+  a { text-decoration: none;}
+  
+  body {
+    /* font-family: 'Nanum Gothic', sans-serif; */
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.8em;
+    color: #444;
+  }
+  section h1 {
+      font-size: 14px;
+      font-weight: 700;
+      font-family: 'Nanum Gothic', sans-serif;
+  }
+  
+  /* section { padding: 40px 0;} */
+  #main > h1 { 
+    padding-top: 90px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .img-responsive { width: 100%; }
+  
+  #main {
+    background: #efefef;
+  }
+  #main > .main_img {
+      width: 255px;
+  }
+  #main > .title_text {
+    /* 배색: #b4dbdc */
+    /* color: #557f80; */
+    /* position: absolute; */
+    width: 100%;
+    /* bottom: 0; */
+    margin-top: 35px;
+    /* margin-bottom: 130px; */
+    padding: 1em;
+    /* padding-bottom: 40px; */
+    line-height: 1.4em;
+  }
+  #main > .title_text > h1 {
+    /* margin-top: 40px; */
+  }
+  .name { 
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  .name > span { font-size: small;}
+  .date {
+      margin-bottom: 5px;
+  }
+  .invite {
+      /* font-size: 10px; */
+      font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 35px;
+  }
+  /* 인사말(초대...) */
+  #invitation {
+      /* outline: 1px solid red; */
+      padding-bottom: 30px;
+      background: #efefef;
+  }
+  #invitation > .invite_main_p {
+      margin-bottom: 35px;
+      /* outline: 1px solid red; */
+  }
+  #invitation > img {
+      width: 100%;
+      
+  }
+  #invitation .phone {
+    /* border-top: 2px solid #b4dbdc;
+    border-bottom: 2px solid #b4dbdc; */
+    /* margin-top: 20px; */
+    /* margin-bottom: 50px; */
+    /* padding-top: 1em; */
+    /* padding-bottom: 1em; */
+    /* outline: 1px solid red; */
+    margin-top: 35px;
+
+  }
+  
+  #invitation .phone .info span {
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .info a{
+    color: #444;
+    /* color: #557f80; */
+  }
+  /* p, i { vertical-align: middle;} */
+
+  .info a:first-child {
+    padding-left: 20px;
+  }
+  .info span {
+    padding: 0 10px 0 10px;
+  }
+  .info {
+    /* outline: 1px solid blue; */
+    margin-bottom: 15px;
+  }
+  .fam {
+      overflow: hidden;
+  }
+  .fam h3 {
+    background: #ccc;
+    margin-top: 35px;
+    padding: 10px 0 10px 0;
+  }
+  .fam .male {
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .fam .female {
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+  }
+  .fam .male .parent {
+      margin-top: 20px;
+  }
+  .fam .female .parent {
+      margin-top: 20px;
+  }
+  .fam .male .parent a{
+      color: black;
+  }
+  .fam .female .parent a {
+      color: black;
+  }
+  .parent span {
+      padding: 0 10px 0 10px;
+  }
+  
+  
+  /* 갤러리 */
+  #gallery {
+    /* outline: 1px solid blue; */
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  #gallery h1 {
+      padding-bottom: 30px;
+  }
+  #gallery .large_img {
+      padding: 0 10px 0 10px;
+  }
+  #gallery .small_img li {
+      padding: 0;
+      width: 167.5px;
+      height: 134px;
+      /* outline: 1px solid red; */
+  }
+  
+
+
+  /* MOVIE */
+  #movie h1 {
+      padding-bottom: 30px;
+  }
+  
+  /* 오시는 길 */
+  #location {
+    padding-top: 30px;
+  }
+  #location h1 {
+      padding-bottom: 30px;
+  }
